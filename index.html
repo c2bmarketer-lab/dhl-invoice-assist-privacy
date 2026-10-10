@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for DHL Invoice Assist: local document processing, reading cache, exports and data controls.">
+  <title>Privacy Policy | DHL Invoice Assist</title>
+  <style>
+    :root { color-scheme: light; --yellow:#ffcc00; --red:#d40511; --ink:#242424; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:#f5f5f5; color:var(--ink); font:16px/1.75 Arial,Helvetica,sans-serif; }
+    header { background:var(--yellow); border-bottom:4px solid var(--red); padding:42px 24px; }
+    .wrap { max-width:900px; margin:0 auto; }
+    .brand { font-size:18px; font-weight:700; }
+    .label { margin:22px 0 8px; font-size:11px; font-weight:700; letter-spacing:2px; color:#a0040d; }
+    h1 { margin:0; font-size:clamp(34px,6vw,48px); line-height:1.2; letter-spacing:-1px; }
+    header p { margin:14px 0 0; max-width:680px; }
+    .meta { font-size:13px; color:#534800; }
+    main { max-width:948px; padding:28px 24px 48px; margin:auto; }
+    .summary { background:#fff7d1; border:1px solid #ebd985; border-left:4px solid var(--red); padding:22px 24px; border-radius:8px; }
+    .summary strong { display:block; margin-bottom:8px; }
+    .summary p { margin:0; }
+    article { background:white; border:1px solid #e3e3e3; border-radius:10px; padding:12px 34px 28px; margin-top:24px; }
+    section { padding-top:18px; }
+    h2 { margin:16px 0 10px; font-size:21px; line-height:1.4; }
+    p { margin:0 0 14px; }
+    ul { margin:0 0 14px; padding-left:24px; }
+    li { margin:7px 0; }
+    a { color:#b7040e; text-underline-offset:3px; overflow-wrap:anywhere; }
+    a:focus-visible { outline:3px solid #8c6800; outline-offset:4px; }
+    .contact { padding:22px; background:#fafafa; border-radius:8px; margin-top:20px; }
+    .button { display:inline-block; background:var(--red); color:white; padding:10px 17px; border-radius:5px; font-size:14px; font-weight:700; text-decoration:none; }
+    footer { text-align:center; padding:26px 24px; border-top:1px solid #ddd; font-size:12px; color:#666; }
+    @media(max-width:600px) { header{padding:30px 20px} main{padding:20px 15px 32px} article{padding:8px 20px 24px} .summary{padding:18px} }
+    @media print { body{background:white} header{padding:16px 0} main{max-width:none;padding:16px 0} article{border:none;padding:0} .button{background:none;color:var(--red);padding:0} }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="brand">DHL Invoice Assist</div>
+      <p class="label">PRIVACY &amp; DATA HANDLING</p>
+      <h1>Privacy Policy</h1>
+      <p>How the extension processes your documents, stores reading results and keeps you in control.</p>
+      <p class="meta">Last updated: October 10, 2026 &middot; Applies to extension version 1.4.2</p>
+    </div>
+  </header>
+  <main>
+    <div class="summary">
+      <strong>Your documents are processed locally in your browser.</strong>
+      <p>The extension does not upload your selected documents to the developer or an external processing service. Some reading results and interface preferences are stored locally, as explained below.</p>
+    </div>
+    <article>
+      <section>
+        <h2>1. About this policy</h2>
+        <p>DHL Invoice Assist is an independent Chrome extension published by <strong>Mahmoud gamal anter</strong>. It organizes user-selected invoice PDFs, shipment paperwork and optional ETA tax invoices, then exports a combined PDF or customer-specific PDF packages.</p>
+        <p>This policy describes the extension's handling of information. It also explains the separate hosting of this privacy page. The extension is not an official DHL product and is not endorsed by DHL.</p>
+      </section>
+      <section>
+        <h2>2. Information the extension handles</h2>
+        <p>You choose which PDF or ZIP files to open. Depending on their contents, these documents may include:</p>
+        <ul>
+          <li>Customer and company names, addresses, contact details and account or tax identifiers.</li>
+          <li>Invoice references, shipment or air waybill numbers, shipment details and supporting document contents.</li>
+          <li>Invoice amounts, charges, tax details and other financial information.</li>
+        </ul>
+        <p>The extension reads document text and, when needed, uses local optical character recognition (OCR) to identify relevant references. It does not access your DHL account, request login credentials, read browser cookies, or monitor your browsing history.</p>
+      </section>
+      <section>
+        <h2>3. How information is used</h2>
+        <p>Information is used to identify invoices and shipments, match optional ETA pages by invoice reference, group paperwork, display results, apply customer names you enter and generate the exports you request.</p>
+        <p>PDF reading, OCR, matching and export generation run locally in the browser. The processing libraries and OCR resources are included in the extension package; document processing does not rely on a remote OCR or AI service.</p>
+      </section>
+      <section>
+        <h2>4. Local storage and retention</h2>
+        <ul>
+          <li><strong>Working documents:</strong> Selected file contents and processing results are held in the current workspace's memory. Original PDFs and page images are not saved in the persistent reading cache.</li>
+          <li><strong>Reading cache:</strong> The extension can store recognized waybill references, candidate matches, recognition metadata, timestamps and document/context hashes in local IndexedDB to reduce repeat processing.</li>
+          <li><strong>Cache reuse:</strong> Cached results are reused for up to 30 days. Older entries are no longer reused, but can remain in local storage until the cache or extension data is cleared.</li>
+          <li><strong>Interface preference:</strong> Your chosen interface language is saved in local browser storage until changed or cleared.</li>
+          <li><strong>Exports:</strong> Downloaded PDFs, ZIPs and CSV reports are saved to the location you choose through your browser and remain until you delete them.</li>
+        </ul>
+      </section>
+      <section>
+        <h2>5. Sharing, advertising and limited use</h2>
+        <p>The extension does not transmit your document contents or reading cache to the developer or third parties. It does not sell user data, include advertising or developer analytics, use data for profiling, or use data to assess creditworthiness or lending eligibility.</p>
+        <p>Information handled by the extension is used only for its document organization and export features, consistent with the Chrome Web Store User Data Policy, including the Limited Use requirements.</p>
+        <p>You decide whether to share exported files. Any sharing you perform outside the extension is governed by the tools and recipients you choose.</p>
+      </section>
+      <section>
+        <h2>6. Your controls</h2>
+        <ul>
+          <li><strong>Clear reading cache:</strong> Removes the saved reading results. It does not remove the documents or results currently open in your workspace.</li>
+          <li><strong>Clear session:</strong> Clears the current document selections and processing results. It does not clear the persistent reading cache.</li>
+          <li><strong>Remove ETA files:</strong> Removes optional ETA files from the current selection.</li>
+          <li><strong>Browser controls:</strong> You can clear the extension's local data using Chrome's storage controls.</li>
+        </ul>
+        <p>These controls do not delete original source files or exports from your computer. Delete those files separately if you no longer need them.</p>
+      </section>
+      <section>
+        <h2>7. This website and support requests</h2>
+        <p>This policy page is hosted on GitHub Pages. It contains no document upload form, analytics scripts, tracking pixels or third-party font resources. GitHub may process technical visit information, including IP addresses, to provide and secure its hosting service. See the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub General Privacy Statement</a>.</p>
+        <p>If you contact support by email, the support recipient receives your email address and any information or attachments you voluntarily include. Your email service and the recipient's email service process the message under their respective policies. The extension does not automatically attach or send documents when you open the support link.</p>
+      </section>
+      <section>
+        <h2>8. Policy updates and contact</h2>
+        <p>This policy will be updated when the extension's data handling changes. The revision date and applicable version appear at the top of this page.</p>
+        <div class="contact">
+          <p><strong>Publisher:</strong> Mahmoud gamal anter</p>
+          <p>For privacy questions or support, email <a href="mailto:ahmed.samir1@dhl.com">ahmed.samir1@dhl.com</a>.</p>
+          <a class="button" href="mailto:ahmed.samir1@dhl.com">Privacy questions &amp; support</a>
+        </div>
+      </section>
+    </article>
+  </main>
+  <footer>DHL Invoice Assist &middot; Independent tool &middot; Privacy Policy</footer>
+</body>
+</html>
